@@ -6,6 +6,8 @@ import {
   deleteStudent,
 } from "./api/student.js";
 
+
+
 let store = {
   studentDetail: null,
 };
@@ -98,3 +100,6 @@ const handleDelete = async (id) => {
   $("#modalMessage").modal("show");
 };
 window.handleDelete = handleDelete;
+
+
+
